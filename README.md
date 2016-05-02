@@ -1,13 +1,13 @@
 # pq-unlogged
 
-`pg-unlogged` allows you to create fast tables in PostgresSQL without logging: (http://www.postgresql.org/docs/current/static/non-durability.html)
+`pg-unlogged` allows you to create fast tables in PostgresSQL without logging: http://www.postgresql.org/docs/current/static/non-durability.html
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'pq-unlogged', groups: [:development, :test]
+gem 'pq-unlogged', group: [:development, :test]
 ```
 
 And then execute:
